@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtrlPVALeasing", "CtrlPVALeasing\CtrlPVALeasing.csproj", "{CF976678-B9F4-4325-8715-3D66A52BBBC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{C2257246-9199-419E-A293-490DDB6765FF}"
+	ProjectSection(SolutionItems) = preProject
+		E:\Docs CtrlPVALeasing\Controle de IPVA Leasing - Telas _ Completo.pptx = E:\Docs CtrlPVALeasing\Controle de IPVA Leasing - Telas _ Completo.pptx
+		E:\Docs CtrlPVALeasing\Controle IPVA Leasing.doc = E:\Docs CtrlPVALeasing\Controle IPVA Leasing.doc
+		E:\Docs CtrlPVALeasing\Especificação funcional Versão_1_Backup_Backup.accdb = E:\Docs CtrlPVALeasing\Especificação funcional Versão_1_Backup_Backup.accdb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
