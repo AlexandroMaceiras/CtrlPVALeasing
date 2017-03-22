@@ -15,7 +15,7 @@ namespace CtrlPVALeasing.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "A página de descrição da sua aplicação.";
 
             return View();
         }
