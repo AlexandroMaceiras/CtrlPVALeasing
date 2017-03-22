@@ -8,31 +8,46 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-fixed-top">        
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                <p class="nav navbar-text navbar-right">Hello, @User.Identity.Name!</p>
-            </div>
+            <table border="0" width="100%" style="background-image: url('../../Imagens/fundo1.bmp');">
+                <tr>
+                    <td width="290">
+                        <img src="~/Imagens/safra.jpg" />
+                    </td>
+                    <td>
+                        <table border="0" width="100%">
+                            <tr>
+                                <td>
+                                    <font color="white"><h3>Controle <b>IPVA Leasing</h3></font></b>
+                                </td>
+                                <td>
+                                    <p class="nav navbar-text navbar-right"><font color="white">@DateTime.Now.ToLongDateString()</font></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <font color="white">Usuário:<b> @User.Identity.Name</b></font>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="navbar-collapse collapse">
+                                        <p class="nav navbar-text navbar-right"><font color="white">@DateTime.Now.ToLongTimeString()</font></p>
+</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - SAFRA S.A. ®</p>
         </footer>
     </div>
 

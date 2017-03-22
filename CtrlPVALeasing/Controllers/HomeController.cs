@@ -22,7 +22,7 @@ namespace CtrlPVALeasing.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Sua página de contato.";
 
             return View();
         }
